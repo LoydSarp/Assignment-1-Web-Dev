@@ -100,8 +100,7 @@ nav .right a:hover{
 }
 
 .contact-info-container .email-icon {
-    width: 10px;
-    display: flex;
+    width: 1px;
     border-radius: 5%;
 } 
 
