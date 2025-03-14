@@ -99,11 +99,6 @@ nav .right a:hover{
     justify-content: left;
 }
 
-.contact-info-container .email-icon {
-    width: 1px;
-    border-radius: 5%;
-} 
-
 .contact-info-upper-container p a{
     display: flex;
     font-size: 5px;
