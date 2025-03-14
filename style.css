@@ -93,7 +93,6 @@ nav .right a:hover{
 }
 
 .contact-info-container {
-    flex: 3;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -101,18 +100,17 @@ nav .right a:hover{
 }
 
 .contact-info-container .email-icon {
-    width: 10px;
-    display: flex;
+    width: 1px;
     border-radius: 5%;
 } 
 
 .contact-info-upper-container p a{
     display: flex;
-    font-size: 10px;
+    font-size: 5px;
     font-family: 'Poppins', sans-serif;
 }
 .Contact-section .group form {
-    flex: 3;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
