@@ -101,14 +101,14 @@ nav .right a:hover{
 }
 
 .contact-info-container .email-icon {
-    width: 10px;
+    width: 1px;
     display: flex;
-    border-radius: 5%;
+    border-radius: 1%;
 } 
 
 .contact-info-upper-container p a{
     display: flex;
-    font-size: 10px;
+    font-size: 50px;
     font-family: 'Poppins', sans-serif;
 }
 .Contact-section .group form {
