@@ -33,14 +33,73 @@ nav .left a{
 nav .right a{
     color: white;
     margin: 0 10px;
+    transition: 1s;
 }
 
 nav .right a:hover{
     color: red;
 }
+
+/*Section 1: hero */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.hero-section .text {
+    flex: 5;
+}
+
+.hero-section .text h2{
+    font-size: 45px;
+}
+
+.hero-section .cartooncharacter {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.hero-section .cartooncharacter img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+@media (max-width:850px) {
+    /* Section 1:hero */
+    .hero-section .text h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:740px) {
+    /* Section 1:hero */
+    .hero-section {
+        font-size: 35px;
+        flex-direction: column-reverse; 
+    }
+
+    .hero-section .cartooncharacter img {
+        width: 300px;
+    } 
+}
 @media (max-width: 600px) {
     /*NAVBAR*/
     nav{
         padding: 0 20px;
+    }
+
+    /* Section 1: hero */
+    .hero-section {
+        padding: 0 20px;
+    }
+
+    .hero-section .text h2 {
+       font-size: 30px; 
     }
 }
