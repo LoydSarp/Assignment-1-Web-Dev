@@ -92,17 +92,6 @@ nav .right a:hover{
     margin-top: 20px;
 }
 
-.contact-info-container {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-.contact-info-upper-container p a{
-    display: flex;
-    font-size: 5px;
-    font-family: 'Poppins', sans-serif;
-}
 .Contact-section .group form {
     flex: 1;
     display: flex;
@@ -136,7 +125,7 @@ nav .right a:hover{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 300px;
     display: flex;
 
 }
