@@ -92,6 +92,11 @@ nav .right a:hover{
     margin-top: 20px;
 }
 
+.contact-info-container .email-icon {
+    width: 50px;
+    display: flex;
+    border-radius: 5%;
+} 
 .Contact-section .group form {
     flex: 3;
     display: flex;
@@ -124,6 +129,11 @@ nav .right a:hover{
     filter: brightness(.8);
 }
 
+footer{
+    margin-top: 100px;
+    display: flex;
+
+}
 @media (max-width:850px) {
     /* Section 1:hero */
     .hero-section .text h2 {
