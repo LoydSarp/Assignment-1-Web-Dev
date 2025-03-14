@@ -7,6 +7,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: grey;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a{
@@ -70,6 +72,58 @@ nav .right a:hover{
     border-radius: 50%;
 }
 
+/*Section 2: contact */
+.Contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.Contact-section h2 {
+    font-size: 35px;
+}
+
+.Contact-section .group {
+    display: flex;
+    gap: 50px;
+}
+
+.Contact-section .group .text {
+    flex: 3;
+    margin-top: 20px;
+}
+
+.Contact-section .group form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-section .group form input,
+.Contact-section .group form textarea {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid red;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    resize: none;
+    outline: none;
+}
+
+.Contact-section .group form button {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    transition: .2s;
+}
+
+.Contact-section .group form button:hover{
+    filter: brightness(.8);
+}
+
 @media (max-width:850px) {
     /* Section 1:hero */
     .hero-section .text h2 {
@@ -87,6 +141,11 @@ nav .right a:hover{
     .hero-section .cartooncharacter img {
         width: 300px;
     } 
+
+    /*Section 2: contact */
+    .Contact-section .group {
+        flex-direction: column;
+    }
 }
 @media (max-width: 600px) {
     /*NAVBAR*/
@@ -101,5 +160,11 @@ nav .right a:hover{
 
     .hero-section .text h2 {
        font-size: 30px; 
+    }
+
+    
+    /*Section 2: contact */
+    .Contact-section {
+        padding: 0 20px;
     }
 }
