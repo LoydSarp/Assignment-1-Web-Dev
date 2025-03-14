@@ -98,7 +98,6 @@ nav .right a:hover{
     flex-direction: column;
     justify-content: left;
 }
-
 .contact-info-upper-container p a{
     display: flex;
     font-size: 5px;
