@@ -92,11 +92,25 @@ nav .right a:hover{
     margin-top: 20px;
 }
 
+.contact-info-container {
+    flex: 3;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
 .contact-info-container .email-icon {
-    width: 50px;
+    width: 10px;
     display: flex;
     border-radius: 5%;
 } 
+
+.contact-info-upper-container p a{
+    display: flex;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
 .Contact-section .group form {
     flex: 3;
     display: flex;
@@ -117,7 +131,7 @@ nav .right a:hover{
 .Contact-section .group form button {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
     background-color: grey;
     border: none;
     cursor: pointer;
