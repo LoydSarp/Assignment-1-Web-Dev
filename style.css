@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+}
+
+a{
+    color: #eeeff1;
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+nav{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+  height: 80px;
+}
+
+nav .left a{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .right a{
+    color: white;
+    margin: 0 10px;
+}
+
+nav .right a:hover{
+    color: red;
+}
+@media (max-width: 600px) {
+    /*NAVBAR*/
+    nav{
+        padding: 0 20px;
+    }
+}
