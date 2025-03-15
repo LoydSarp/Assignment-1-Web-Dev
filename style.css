@@ -137,11 +137,6 @@ nav .right a:hover{
     color: white;
 }
 
-.Contact-section .group form label {
-    font-size: 20px;
-    color: white;
-}
-
 .Contact-section .group form input,
 .Contact-section .group form textarea {
     font-family: 'Poppins', sans-serif;
@@ -151,6 +146,12 @@ nav .right a:hover{
     margin-bottom: 15px;
     resize: none;
     outline: none;
+}
+
+.Contact-section .group form label {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .Contact-section .group form button {
