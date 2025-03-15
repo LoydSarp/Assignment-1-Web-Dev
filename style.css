@@ -166,7 +166,7 @@ footer {
     text-align: justify;
 }
 
-.Contact-section p{
+.Contact-section p {
     font-size: 20px;
     color: white;
     display: flex;
@@ -188,6 +188,9 @@ footer {
     display: flex;
     flex-direction: column;
     color: white;
+    background-color: #222; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .Contact-section .group form input,
@@ -195,16 +198,20 @@ footer {
     font-family: 'Poppins', sans-serif;
     border: 2px solid red;
     background-color: transparent;
+    color: white; 
     padding: 10px;
     margin-bottom: 15px;
     resize: none;
     outline: none;
+    font-size: 16px; 
 }
 
 .Contact-section .group form label {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: white;
+    margin-bottom: 8px;
+    display: block; 
 }
 
 .Contact-section .group form button {
@@ -216,11 +223,24 @@ footer {
     cursor: pointer;
     height: 50px;
     transition: .2s;
+    border-radius: 4px; 
+    width: 100%; 
 }
 
-.Contact-section .group form button:hover{
+.Contact-section .group form button:hover {
     filter: brightness(.8);
     color: red;
+}
+
+
+.Contact-section .group form input:focus,
+.Contact-section .group form textarea:focus {
+    border-color: red; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.Contact-section .group form button:focus {
+    outline: none; 
 }
 
 .projects {
