@@ -99,13 +99,13 @@ nav .right a:hover{
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .site-report .validation-images img {
-    width: 100px;
+    width: 400px;
     height: auto;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 10px;
 }
 
