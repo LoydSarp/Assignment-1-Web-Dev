@@ -11,22 +11,6 @@ body{
     margin: 0 auto;
 }
 
-.box {
-    margin-bottom: 50px;
-    width: 100px;
-    height: 100px;
-    background-color: grey, red, purple, darkcyan, blue;
-    transform: translateX(70vw);
-    animation-name: moveRotateScale;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse;
-    animation-fill-mode: both;
-}
-
-
 a{
     color: #eeeff1;
     text-decoration: none;
@@ -210,16 +194,6 @@ footer{
     margin-top: 200px;
     display: flex;
 
-}
-
-/* Box Animation */
-@keyframes moveRotateScale {
-    from {
-        transform: translate(-200px, -100px) rotate(0);
-    }
-    to {
-        transform: translate(200px, 100px) rotate(180deg);
-    }
 }
 
 @media (max-width:850px) {
