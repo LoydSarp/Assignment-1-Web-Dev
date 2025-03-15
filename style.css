@@ -143,8 +143,51 @@ nav .right a:hover{
 }
 
 .projects .chatweb img {
-    width: 100px;
-    border-radius: 50%;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.projects .chatweb a {
+    color: black;
+    margin: 0 10px;
+    transition: 1s;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.projects .chatweb a:hover{
+    color: red;
+}
+
+.projects .timerweb {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.projects .timerweb a {
+    color: black;
+    margin: 0 10px;
+    transition: 1s;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.projects .timerweb a:hover{
+    color: red;
+}
+
+.projects .timerweb img {
+    width: 500px;
+    border-radius: 10%;
 }
 
 footer{
