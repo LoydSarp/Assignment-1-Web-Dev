@@ -124,6 +124,29 @@ nav .right a:hover{
     filter: brightness(.8);
 }
 
+.projects {
+    padding: 0 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.projects h2{
+    font-size: 30px;
+}
+
+.projects .chatweb {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.projects .chatweb img {
+    width: 20px;
+    border-radius: 50%;
+}
+
 footer{
     margin-top: 200px;
     display: flex;
