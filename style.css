@@ -137,6 +137,11 @@ nav .right a:hover{
     color: white;
 }
 
+.Contact-section .group form label {
+    font-size: 20px;
+    color: white;
+}
+
 .Contact-section .group form input,
 .Contact-section .group form textarea {
     font-family: 'Poppins', sans-serif;
@@ -173,6 +178,11 @@ nav .right a:hover{
 .projects h2{
     font-size: 30px;
     color: red;
+}
+
+.projects p{
+    font-size: 20px;
+    color: white;
 }
 
 .projects .chatweb {
