@@ -1,4 +1,4 @@
-*{
+head{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,6 +67,59 @@ nav .right a{
 nav .right a:hover{
     color: red;
 }
+
+/* Site Report Section */
+.site-report {
+    padding: 0 50px;
+    color: white;
+}
+
+.site-report h1 {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.site-report h2 {
+    font-size: 30px;
+    color: red;
+    margin: 30px 0 10px;
+}
+
+.site-report p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.site-report .validation-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.site-report .validation-images img {
+    width: 100px;
+    height: auto;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+
 
 /*Section 1: hero */
 .hero-section {
@@ -259,6 +312,28 @@ footer{
     .hero-section .text h2 {
         font-size: 35px;
     }
+
+     /*Section 4: site report*/
+     .site-report h1 {
+        font-size: 30px;
+    }
+
+    .site-report h2 {
+        font-size: 25px;
+    }
+
+    .site-report p {
+        font-size: 16px;
+    }
+
+    .site-report .validation-images {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .site-report .validation-images img {
+        width: 100%;
+    }
 }
 
 @media (max-width:740px) {
@@ -296,6 +371,36 @@ footer{
     /*Section 2: contact */
     .Contact-section {
         padding: 0 20px;
+    }
+
+    nav {
+        padding: 0 20px;
+    }
+
+      /*Section 4: site report*/
+    .site-report {
+        padding: 0 20px;
+    }
+
+    .site-report h1 {
+        font-size: 25px;
+    }
+
+    .site-report h2 {
+        font-size: 20px;
+    }
+
+    .site-report p {
+        font-size: 14px;
+    }
+
+    .site-report .validation-images {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .site-report .validation-images img {
+        width: 100%;
     }
 }
 
